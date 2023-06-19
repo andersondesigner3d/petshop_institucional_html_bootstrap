@@ -1,0 +1,125 @@
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+.boas-vindas{
+    background-color:#385D7A;
+    padding: 20px;
+    height: 100%;
+}
+
+.titulo {
+    color: orange;
+    font-size: 52px;
+}
+
+.sub-titulo{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.titulo-sobre-nos{
+    color: #385D7A;
+    font-size: 40px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.titulo-sobre-nos-h2{
+    color: #385D7A;
+    font-size: 30px;
+}
+
+.sobre_nos{
+    padding: 50px;
+    text-align: center;
+}
+
+.sobre_equipe{
+    text-align: center;
+}
+
+.p_sobre_nos{
+    font-size: 20px;
+}
+
+.fundo_azul_claro{
+    background-color: #eefafe;
+}
+
+.pontilhada{
+    border: 2px dotted #000; 
+    border-radius: 30px;
+    margin: 10px;
+    padding: 5px;
+}
+
+.centralizada {
+    text-align: center;
+}
+
+.texto_sombra{
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.input_formulario{
+    margin-bottom: 15px;
+}
+
+footer{
+    margin: 0px;
+    background-color: #385D7A;
+}
+
+.rodape{
+    font-size: 20px;
+    color: white;
+    text-align: center; 
+}
+
+.card{
+    float: left;
+    margin: 10px;
+}
+
+@media (max-width: 767px) {
+    .vertical {
+      /* Estilos específicos para smartphones */
+      text-align: center;
+    }
+
+    .img-boas-vindas{
+        width: 300px;
+    }
+
+    .botao-enviar{
+        padding-bottom: 20px;
+    }
+    
+  }
+  
+/* Media query para PCs */
+@media (min-width: 768px) {
+    .vertical {
+        /* Estilos específicos para PCs */
+        text-align: left;
+        padding-top: 100px;
+    }
+
+    .img-boas-vindas{
+        width: 600px;
+    }
+
+    .botao-enviar{
+        padding-bottom: 20px;
+    }
+}
+  
+  
+  
+  
+  
+  
+  
+
